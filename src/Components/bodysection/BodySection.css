@@ -1,1 +1,94 @@
+.select-button {
+  margin: 50px;
+}
 
+.btn {
+  padding: 10px 34px;
+  background: transparent;
+  border: 1px solid #868080;
+  color: #868080;
+  font-size: 17px;
+  font-weight: 400;
+  width: 9%;
+  cursor: pointer;
+}
+
+.btn.active {
+  background-color: #24582a;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-container {
+  display: flex;
+  gap: 13px;
+}
+
+.paragraph {
+  margin-top: 22px;
+}
+
+.nursery-title {
+  margin-top: 22px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.gallery-image {
+  width: 100px;
+  height: 97px;
+  margin: 0 10px;
+  border-radius: 68px;
+}
+
+.arrow {
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  font-size: 30px; /* Size of the arrows */
+  cursor: pointer; /* Change cursor to pointer */
+  outline: none; /* Remove outline on focus */
+  color: #868080; /* Arrow color */
+}
+
+.arrow:hover {
+  color: #24582a; /* Change color on hover */
+}
+
+.arrow:disabled {
+  color: #ccc; /* Change color for disabled state */
+  cursor: not-allowed; /* Change cursor for disabled state */
+}
+
+.image-description {
+  font-size: 14px; /* Adjust font size */
+  color: #333; /* Adjust text color */
+}
+
+.image-item {
+  margin: 0 10px; /* Space between individual items */
+  text-align: center; /* Center align text below images */
+}
+
+.right-arrow {
+  background: none; /* Remove default background */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer */
+  outline: none; /* Remove outline on focus */
+  color: #868080; /* Arrow color */
+  font-size: 24px; /* Adjust font size */
+  margin-bottom: 10px; /* Space below the arrow */
+}
+
+.right-arrow:hover {
+  color: #24582a; /* Change color on hover */
+}
+
+.right-arrow:disabled {
+  color: #ccc; /* Change color for disabled state */
+  cursor: not-allowed; /* Change cursor for disabled state */
+}
