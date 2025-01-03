@@ -1,0 +1,26 @@
+.product-list-header {
+  display: flex;
+  position: relative;
+  bottom: 688px;
+  margin-left: 411px;
+  gap: 25px;
+}
+
+.product-count {
+  font-size: 18px;
+  color: #696363;
+}
+
+.sort-by {
+  background-color: #24582a;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  width: 159px;
+  padding: 13px 8px;
+  margin: -12px -1px;
+  font-size: 17px;
+  text-align: left;
+  display: flex;
+  gap: 48px;
+}

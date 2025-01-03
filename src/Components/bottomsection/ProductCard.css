@@ -1,0 +1,28 @@
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;
+  justify-content: center;
+  margin: -628px 0px 0px 295px;
+  width: 80%;
+  position: relative;
+}
+
+.view-more-btn {
+  margin: 65px 0px 0px 842px; /* Center the button */
+  width: 150px; /* Fixed width for consistency */
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #24582a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: block; /* Center align in flex parent */
+  position: relative; /* No need for absolute if centered */
+  text-align: center;
+}
+.view-more-btn:hover {
+  background-color: #1e4a24; /* Slightly darker on hover */
+}

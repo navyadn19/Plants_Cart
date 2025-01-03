@@ -1,0 +1,33 @@
+.filter-sidebar {
+  background-color: #f5ffeb;
+  width: 304px;
+  height: auto;
+  top: -25px;
+  position: relative;
+  padding: 20px;
+  margin: 0px 50px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.filter-header button {
+  background-color: transparent;
+  border: none;
+  color: #847e7e;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.filter-header p {
+  margin: 0;
+  font-size: 18px;
+  color: #847e7e;
+}
+
+.filter-section {
+  margin-top: 10px;
+}

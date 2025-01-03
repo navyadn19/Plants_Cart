@@ -1,1 +1,115 @@
+.card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  width: calc(3.33% - -329px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 315px;
+}
 
+.card img {
+  height: 85%;
+  width: 100%;
+}
+
+.card p {
+  background-color: #24582a;
+  width: 339px;
+  text-align: center;
+  height: 47px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: #ddd328;
+}
+
+.p-rating .p-rating-item .pi-star {
+  color: #ccc;
+}
+
+.card-details {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.card-details p {
+  color: grey;
+  font-size: 17px;
+  margin-top: 7px;
+}
+
+.rupees {
+  display: flex;
+  gap: 20px;
+}
+
+.add-button {
+  border-radius: 9px;
+  height: 32px;
+  padding: 0px 10px;
+  background-color: #24582a;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.rent-button {
+  border-radius: 9px;
+  height: 32px;
+  padding: 0px 10px;
+  background-color: #fff;
+  color: #24582a;
+  font-weight: 600;
+  border-color: #24582a;
+  margin-left: 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button */
+.close-button {
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
